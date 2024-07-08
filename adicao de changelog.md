@@ -11,4 +11,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - adicao de changelog.md
+- adicao de Readme.md
+- adicao de index.html
+- adicao de containers.html
+- adicao de listas.html
+- adicao de midias.html
+- adicao de password.html
+- adicao de tabelas.html
+
 

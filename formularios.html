@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <head>
+        <h1>formularios</h1>
+        <nav>
+            <a href="./index.html">home</a>
+            <a href="./containers.html">containers</a>
+            <a href="./listas.html">listas</a>
+            <a href="./tabelas.html">tabelas</a>
+            <a href="./password.html">password</a>
+            <a href="./midias.html">midias</a>
+        </nav>
+    </head>
+    <main>
+        <form>
+            <label for="name">seu nome</label>
+            <input required id="name" type="text" placeholder="Your name"/>
+            <br/>
+
+            <label for="email">seu e-mail</label>
+            <input id="email" type="email" placeholder="your email"/>
+            <br/>
+
+            <label for="tel">seu telefone</label>
+            <input id="tel" type="telefone" placeholder="your telefone"/>
+            <br/>
+
+            <label for="numero">escolha um numero</label>
+            <input id="numero" type="number" max="100" min="0" step="3">
+            <br/>
+
+            <label for="file">coloque seu arquivo -></label>
+            <input id="file" type="file"/>
+            <br/>
+
+            <input type="color">
+            <br/>
+
+            <input type="checkbox" id="checkbox"> <label for="checkbox">aceito os termos</label>
+            <br/>
+            <p>
+                qual a sua cor favorita?
+            </p>
+            <input type="radio" name="cor-favorita" id="verde"> <label for="verde">verde</label>
+            <input type="radio" name="cor-favorita" id="vermelho"> <label for="vermelho">vermelho</label>
+            <input type="radio" name="cor-favorita" id="azul"> <label for="azul">azul</label>
+            <br/>
+
+            <label>qual o seu filme favorito?</label>
+            <select>
+                <option>filme A</option>
+                <option>filme B</option>
+                <option>filme C</option>
+                <option>filme D</option>
+            </select>
+            <br/>
+            <textarea placeholder="digite seu comentario"></textarea>
+            <br/>
+            <button type="submit">
+                enviar
+            </button>
+            <button type="reset">
+                limpar
+            </button>
+        </form>
+    </main>
+</body>
+</html>

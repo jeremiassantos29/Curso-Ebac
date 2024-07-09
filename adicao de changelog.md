@@ -10,13 +10,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.1.1] - 2024-04-08
 
 ### Added
-- adicao de changelog.md
-- adicao de Readme.md
-- adicao de index.html
-- adicao de containers.html
-- adicao de listas.html
-- adicao de midias.html
-- adicao de password.html
-- adicao de tabelas.html
+- Adição de changelog.md
+- Adição de Readme.md
+- Adição de Index.html
+- Adição de Containers.html
+- Adição de Listas.html
+- Adição de Midias.html
+- Adição de Password.html
+- Adição de Tabelas.html
+- Adição de arquivos de midia
 
 
